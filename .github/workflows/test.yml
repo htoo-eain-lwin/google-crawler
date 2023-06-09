@@ -6,6 +6,7 @@ on:
     branches:
       - develop
       - main
+      - feature/ci-setup
 
 env:
   DANGER_GITHUB_API_TOKEN: ${{ github.token }}
