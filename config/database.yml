@@ -20,4 +20,4 @@ test:
   database: google_crawler_test
 
 production:
-  url: 
+  url:
