@@ -6,7 +6,6 @@ on:
       - .github/wiki/**
     branches:
       - develop
-      - feature/ci-setup
 
 jobs:
   publish:
