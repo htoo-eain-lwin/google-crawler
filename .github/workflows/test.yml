@@ -157,8 +157,8 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           workflow: test.yml
           workflow_conclusion: success
-          name: google-crawler.lcov
-          path: coverage/lcov
+          name: coverage
+          path: coverage
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
