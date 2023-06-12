@@ -185,7 +185,7 @@ jobs:
         run: yarn
 
       - name: Run Undercover
-        run: bundle exec undercover-report
+        run: bundle exec undercover-report -l /home/runner/work/google-crawler/google-crawler/coverage/lcov/google_crawler.lcov
 
       - name: Run Danger
         run: bundle exec danger
