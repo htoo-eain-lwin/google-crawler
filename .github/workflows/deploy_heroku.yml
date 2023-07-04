@@ -18,6 +18,7 @@ env:
   DOCKER_REGISTRY_TOKEN: ${{ secrets.DOCKER_REGISTRY_TOKEN }}
   DOCKER_IMAGE: htooeainlwin12/google-crawler
   HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+  NODE_VERSION: 16
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
