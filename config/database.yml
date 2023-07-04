@@ -21,3 +21,6 @@ test:
 
 production:
   <<: *default
+  database: google_crawler_production
+  username: <%= ENV["MYAPP_DATABASE_USERNAME"] %>
+  password: <%= ENV["MYAPP_DATABASE_PASSWORD"] %>
