@@ -43,7 +43,7 @@ jobs:
           then
             echo "HEROKU_APP=desolate-anchorage-78991" >> $GITHUB_ENV
           else
-            echo "HEROKU_APP=desolate-anchorage-78991-staging" >> $GITHUB_ENV
+            echo "HEROKU_APP=desolate-anchorage-staging" >> $GITHUB_ENV
           fi
 
       - name: Login to Docker registry
