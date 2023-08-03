@@ -41,9 +41,9 @@ jobs:
         run: |
           if [[ $BRANCH_TAG = "latest" ]]
           then
-            echo "HEROKU_APP=google_crawler" >> $GITHUB_ENV
+            echo "HEROKU_APP=desolate-anchorage-78991" >> $GITHUB_ENV
           else
-            echo "HEROKU_APP=google_crawler-staging" >> $GITHUB_ENV
+            echo "HEROKU_APP=desolate-anchorage-78991-staging" >> $GITHUB_ENV
           fi
 
       - name: Login to Docker registry
