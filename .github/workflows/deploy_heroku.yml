@@ -14,9 +14,9 @@ on:
 
 env:
   DOCKER_REGISTRY_HOST: ${{ secrets.DOCKER_REGISTRY_HOST }}
-  DOCKER_REGISTRY_USERNAME: ${{ github.repository_owner }}
+  DOCKER_REGISTRY_USERNAME: htooeainlwin12
   DOCKER_REGISTRY_TOKEN: ${{ secrets.DOCKER_REGISTRY_TOKEN }}
-  DOCKER_IMAGE: ${{ github.repository }}
+  DOCKER_IMAGE: htooeainlwin12/google-crawler
   HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
 
 concurrency:
