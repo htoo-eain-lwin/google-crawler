@@ -8,6 +8,7 @@ on:
       - master
       - main
       - development
+      -
     types:
       - completed
   workflow_dispatch:
@@ -41,9 +42,9 @@ jobs:
         run: |
           if [[ $BRANCH_TAG = "latest" ]]
           then
-            echo "HEROKU_APP=desolate-anchorage-78991" >> $GITHUB_ENV
+            echo "HEROKU_APP=htoo-ic-google-crawler" >> $GITHUB_ENV
           else
-            echo "HEROKU_APP=desolate-anchorage-staging" >> $GITHUB_ENV
+            echo "HEROKU_APP=htoo-ic-google-crawler-staging" >> $GITHUB_ENV
           fi
 
       - name: Login to Docker registry
