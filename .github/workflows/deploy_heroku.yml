@@ -8,7 +8,7 @@ on:
       - master
       - main
       - development
-      -
+      - chore/setup-cd
     types:
       - completed
   workflow_dispatch:
